@@ -13,9 +13,9 @@
         <p class="header-logo">Food</p>
         <nav class="header-menu">
           <ul>
-            <li><a href="#foods">Comidas</a></li>
-            <li><a href="#info">Informacion</a></li>
-            <li><a href="#noticias"></a>Noticias</li>
+            <li><a href="#foods" class="menu-link">Comidas</a></li>
+            <li><a href="#info" class="menu-link">Informacion</a></li>
+            <li><a href="#noticias" class="menu-link">Noticias</a></li>
           </ul>
         </nav>
       </div>
@@ -23,23 +23,20 @@
         <div class="hero-info">
           <h1 class="hero-titulo">Descubre platos</h1>
           <p class="hero-text">
-            Aquí encontrarás distintos platos que conoces o no conocerás
+            Aquí encontrarás distintos platos que conoces o no
+            conocerás,disfrutaras y querras poner en practica.
           </p>
           <a href="#" class="btn hero-btn">Registrate</a>
         </div>
         <div class="hero-img">
-          <img
-            src="./images/hero-img.jpg"
-            alt="Imagen de comida"
-            class="hero-img"
-          />
+          <img src="./images/hero-img.jpg" alt="Imagen de comida" />
         </div>
       </div>
     </header>
     <main>
       <section class="foods-section" id="foods">
+        <h2 class="titulo-section">Platos que conoceras</h2>
         <div class="foods">
-          <h2 class="titulo-section">Platos que conoceras</h2>
           <article class="food">
             <h3 class="food-titulo">Hamburguesa</h3>
             <img src="./images/food1.jpg" alt="Hamburguesa" class="food-img" />
@@ -48,7 +45,7 @@
           <article class="food">
             <h3 class="food-titulo">Napolitano</h3>
             <img src="./images/food2.jpg" alt="Napolitano" class="food-img" />
-            <p class="food-text">Helado con fresas, chocolate y vainilla.</p>
+            <p class="food-text">Tomate con espinaca, queso y sal.</p>
           </article>
           <article class="food">
             <h3 class="food-titulo">Pastas</h3>
@@ -60,9 +57,7 @@
           <article class="food">
             <h3 class="food-titulo">Croissant</h3>
             <img src="./images/food4.jpg" alt="Croissant" class="food-img" />
-            <p class="food-text">
-              Delicioso bollo francés de hojaldre y mantequilla.
-            </p>
+            <p class="food-text">Delicioso bollo francés de hojaldre.</p>
           </article>
         </div>
       </section>
@@ -73,7 +68,29 @@
         </p>
         <p class="info-autor">Royner Guardo</p>
       </section>
+      <section class="noticias" id="noticias">
+        <div class="noticias-container">
+          <div class="container-text">
+            <h3 class="text-titulo">Inscribete ya</h3>
+            <p class="text-text">
+              Registrate ya para saber mas acerca de todos nuestro alimentos
+            </p>
+          </div>
+          <div class="container-buttom">
+            <a href="#" class="btn noticias-btn">Registrate</a>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p class="footer-titulo">
+        Creado por
+        <span class="footer-creador"
+          ><a href="https://github.com/RoynerG" target="_blank"
+            >RoynerG</a
+          ></span
+        >
+      </p>
+    </footer>
   </body>
 </html>
